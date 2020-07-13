@@ -30,11 +30,11 @@ public class Avaliador {
         media = (n1 + n2 + n3 + n4) / 4;
         
         if (media >= 7) {
-            System.out.println("Parabens " + media);
+            System.out.printf("Parabens " + media,"%.2f%n");
         }else if (media <= 6.5) {
-            System.out.println("Observasões a serem feitas " + media);
+            System.out.printf("Observasões a serem feitas " + media, "%.2f%n");
         }else {
-            System.out.println("Mais sorte na proxima vez " + media);
+            System.out.printf("Mais sorte na proxima vez " + media, "%.2f%n");
         }
 
         sc.close();
